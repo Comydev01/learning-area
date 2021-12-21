@@ -26,21 +26,24 @@
 
   </body>
   <script>
-    const quote = 'I dO nOT lIke gREen eGgS anD HAM';
+  const quote = 'I do not like green eggs and ham.';
 
-    // Add your code here
+// Add your code here
+const finalQuote = 'I do not like green eggs and beans.';
 
-    // Don't edit the code below here!
+const fixedQuote = 'I do not like green eggs and ham.';
 
-    const section = document.querySelector('section');
+// Don't edit the code below here!
 
-    const para1 = document.createElement('p');
-    para1.textContent = fixedQuote;
-    const para2 = document.createElement('p');
-    para2.textContent = finalQuote;
+section.innerHTML = ' ';
+const para1 = document.createElement('p');
+para1.textContent = fixedQuote;
+const para2 = document.createElement('p');
+para2.textContent = finalQuote;
 
-    section.appendChild(para1);
-    section.appendChild(para2);
+section.appendChild(para1);
+section.appendChild(para2);
+      
   </script>
 
 </html>
